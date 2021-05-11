@@ -7,6 +7,8 @@ div.EventCard {
   box-shadow: 2px 4px 18px var(--color-black-shadow);
   border-radius: 6px;
   margin-top: 1em;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 div.EventCard:hover {
