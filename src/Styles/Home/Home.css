@@ -1,0 +1,39 @@
+div.Home > h2.tagline {
+  margin-top: 4em;
+  font-weight: bolder;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+div.Home > div.button_layer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3em;
+}
+
+div.Home > div.button_layer > button {
+  margin-right: 2em;
+}
+
+div.Home > div.content-section {
+  margin-top: 6em;
+}
+
+p.content {
+  width: 60%;
+  font-weight: inherit;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+
+div.event-card-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+/*# sourceMappingURL=Home.css.map */

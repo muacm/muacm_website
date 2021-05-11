@@ -1,0 +1,9 @@
+:root {
+  --color-blue: rgb(58, 58, 255);
+  --color-black: #292929;
+  --color-white: #ffffff;
+  --color-gray: rgb(190, 190, 190);
+  --color-blue-shadow: rgba(58, 58, 255, 0.360);
+  --color-black-shadow: rgba(41, 41, 41, 0.342);
+}
+/*# sourceMappingURL=variables.css.map */

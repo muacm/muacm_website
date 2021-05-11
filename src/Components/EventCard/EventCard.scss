@@ -1,0 +1,15 @@
+
+div.EventCard {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  padding: 1em;
+  box-shadow: 2px 4px 18px var(--color-black-shadow);
+  border-radius: 6px;
+  margin-top: 1em;
+}
+
+div.EventCard:hover {
+  box-shadow: none;
+  outline: 2px solid rgba(128, 128, 128, 0.253);
+}
