@@ -1,0 +1,63 @@
+
+div.Team {
+  margin-top: 3em;
+}
+
+div.Team > h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+div.team-card-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.Team > div.team-card-container > h3 {
+  text-align: center;
+}
+
+div#HOD-container {
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+  width: 36%;
+}
+
+div#council-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+
+div#core-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+
+div#executive-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+
+div.team-card-container > div {
+  margin-bottom: 6em;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+  div#HOD-container,
+  div#council-container,
+  div#core-container,
+  div#executive-container {
+    display: block;
+  }
+
+  div#HOD-container {
+    width: 100%;
+  }
+}

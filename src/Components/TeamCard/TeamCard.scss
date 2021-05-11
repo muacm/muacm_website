@@ -1,0 +1,38 @@
+
+
+div.TeamCard {
+  padding: 1em;
+  width: 60%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 2px 4px 18px var(--color-black-shadow);
+  margin-top: 2em;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+div.TeamCard > img {
+  width: 100%;
+}
+
+div.TeamCard:hover {
+  box-shadow: none;
+  outline: 2px solid rgba(128, 128, 128, 0.253);
+}
+
+div.TeamCard > h3, div.TeamCard > p {
+  font-family: inherit;
+}
+
+div.TeamCard > div.social-icons {
+  display: inline;
+  align-items: center;
+}
+
+div.TeamCard > div.social-icons > a > i {
+  margin-right: 8px;
+  margin-left: 8px;
+  font-size: 24px;
+  text-align: center;
+}

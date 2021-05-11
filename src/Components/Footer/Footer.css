@@ -1,0 +1,66 @@
+.Footer {
+  padding: 1em;
+  background-color: var(--color-black);
+  color: white;
+  font-weight: inherit;
+  font-family: inherit;
+  margin-top: 6em;
+}
+
+.Footer-UpperLayer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.Footer-UpperLayer > div > img {
+  width: 100px;
+}
+
+.Footer-UpperLayer > div {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Footer-UpperLayer > div > ul.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.Footer-UpperLayer > div > ul.footer-list > li {
+  display: list-item;
+  position: relative;
+  padding: 0;
+}
+
+.Footer-UpperLayer > div > ul.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.Footer-UpperLayer > div > ul.icon > li {
+  font-size: 24px;
+  padding: 0;
+  margin-right: 1em;
+}
+
+.Footer-LowerLayer {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.Footer-LowerLayer > p > a {
+  color: gray;
+  text-decoration: none;
+}
+
+.Footer-LowerLayer > p > a:hover {
+  color: var(--color-blue);
+}
+/*# sourceMappingURL=Footer.css.map */
