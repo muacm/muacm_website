@@ -2,8 +2,17 @@ div.Header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
   padding: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 2px 4px 20px var(--color-black-shadow);
+          box-shadow: 2px 4px 20px var(--color-black-shadow);
+  width: 100%;
+  background-color: white;
 }
 
 div.Header > span.logo-container {
@@ -34,5 +43,9 @@ li.header-option {
   text-decoration: none;
   color: black;
   margin-right: 2em;
+}
+
+li.header-option:hover {
+  color: var(--color-blue);
 }
 /*# sourceMappingURL=Header.css.map */
