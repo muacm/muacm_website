@@ -1,5 +1,5 @@
 
-import "../Styles/Home/Home.css"
+import "../Styles/main.css"
 import Events from "../utils/events"
 import EventCard from "../Components/EventCard/EventCard";
 import React, { useState } from "react";
@@ -14,7 +14,7 @@ const Home = () => {
       </h2>
     
       <div className="button_layer">
-        <button className="primaryButton">
+        <button className="primaryButton" onclick="window.open('https://discord.gg/kWhRdyddve');">
           Join Discord <i className="fab fa-discord"></i>
         </button>
         <button className="secondaryButton">

@@ -1,8 +1,13 @@
 
 div.Header {
   align-items: center;
+  display: flex;
   overflow: hidden;
   padding: 1em;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 20px var(--color-black-shadow);
+  width: 100%;
+  background-color: white;
 }
 
 div.Header > span.logo-container  {
@@ -29,6 +34,6 @@ li.header-option {
   margin-right: 2em;
 }
 
-@media screen {
-  
+li.header-option:hover {
+  color: var(--color-blue);
 }

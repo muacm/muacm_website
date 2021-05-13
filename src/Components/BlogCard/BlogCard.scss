@@ -1,0 +1,46 @@
+
+div.BlogCard {
+  background-color: white;
+  line-height: inherit;
+  padding: 1.3em;
+  overflow: hidden;
+  margin-right: 0.4em;
+  margin-left: 0.4em;
+  box-shadow: 2px 4px 18px var(--color-black-shadow);
+  margin-top: 1.4em;
+  // box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+div.BlogCard:hover {
+  box-shadow: none;
+  outline: 2px solid rgba(128, 128, 128, 0.253);
+}
+
+div.BlogCard > a > button.primaryButton {
+  margin-top: 1em;
+  width: 100%;
+  margin-bottom: auto;
+}
+
+div.BlogCard>img.blog_demo_image {
+  width: 100%;
+}
+
+div.BlogCard > span {
+  display: flex;
+  align-items: center;
+}
+
+div.BlogCard > span > p {
+  font-family: inherit;
+  font-size: 14px;
+  color: gray;
+  margin-left: 0.4em;
+}
+
+div.BlogCard > span > img.author_profile_image {
+  width: 42px;
+  border-radius: 100px;
+}

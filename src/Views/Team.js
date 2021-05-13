@@ -1,5 +1,5 @@
 
-import "../Styles/Team/Team.css";
+import "../Styles/main.css";
 import HOD_Details from "../utils/team";
 import Council_Member_Details from "../utils/team";
 import Core_Member_Details from "../utils/team";
