@@ -1,10 +1,13 @@
 
 import "./TeamCard.css";
+import imageContainer from './../../utils/teamImages'
 
 const TeamCard = ({TeamCard_Details}) => {
+
   return (
     <div className="TeamCard">
-      {/* <img src={require('utils/images/yash.jpg')} /> */}
+      <img src={imageContainer[TeamCard_Details["Name"]]} />
+
       <h3>{TeamCard_Details["Name"]}</h3>
       <p>{TeamCard_Details["Title"]}</p>
       <div className="social-icons">
