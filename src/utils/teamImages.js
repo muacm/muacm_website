@@ -1,24 +1,25 @@
-import yash from './images/yash.jpg'
-import tanisha_jain from './images/tanisha_jain.jpeg'
-import suchismita from './images/suchismita.jpg'
-import saud from './images/saud.jpg'
-import sarthak from './images/sarthak.jpeg'
-import samriddhi from './images/samriddhi.jpg'
-import samarth_sharma from './images/samarth_sharma.jpg'
-import riya_ahuja from './images/riya_ahuja.jpeg'
-import ritika_maheshwari from './images/ritika_maheshwari.jpg'
-import rajesh from './images/rajesh.jpg'
-import raj_soni from './images/raj_soni.jpg'
-import prateeti from './images/prateeti.jpg'
-import nishant from './images/nishant.jpg'
-import mihir from './images/mihir.jpg'
-import mayank from './images/mayank.jpg'
-import jaspreet from './images/jaspreet.jpg'
-import ishika from './images/ishika.jpg'
-import hiteshi from './images/hiteshi.jpg'
-import anushka_jain from './images/anushka_jain.jpg'
-import aditi_mandlik from './images/aditi_mandlik.jpeg'
-import aditi_dandawate from './images/aditi_dandawate.jpg'
+import yash from './images/yash.png'
+import tanisha_jain from './images/tanisha_jain.png'
+import suchismita from './images/suchismita.png'
+import saud from './images/saud.png'
+import sarthak from './images/sarthak.png'
+import samriddhi from './images/samriddhi.png'
+import samarth_sharma from './images/samarth_sharma.png'
+import riya_ahuja from './images/riya_ahuja.png'
+import ritika_maheshwari from './images/ritika_maheshwari.png'
+import rajesh from './images/rajesh.png'
+import raj_soni from './images/raj_soni.png'
+import prateeti from './images/prateeti.png'
+import nishant from './images/nishant.png'
+import mihir from './images/mihir.png'
+import mayank from './images/mayank.png'
+import jaspreet from './images/jaspreet.png'
+import ishika from './images/ishika.png'
+import hiteshi from './images/hiteshi.png'
+import anushka_jain from './images/anushka_jain.png'
+import aditi_mandlik from './images/aditi_mandlik.png'
+import aditi_dandawate from './images/aditi_dandawate.png'
+import dheeraj from './images/dheeraj.png'
 
 
 
@@ -44,5 +45,6 @@ export default {
     "Sarthak Khandelwal":sarthak,
     "Saud Hashmi":saud,
     "Suchismita Nanda":suchismita,
-    "Tanisha Jain":tanisha_jain
+    "Tanisha Jain":tanisha_jain,
+    "Dheeraj Rane": dheeraj
 }
