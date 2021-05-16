@@ -32,3 +32,30 @@ div.event-card-container {
   display: grid;
   grid-template-columns: auto auto auto;
 }
+
+@media screen and (max-width: 1200px) {
+  div.Home {
+    text-align: center;
+  }
+  div.Home > div.button_layer {
+    text-align: center;
+  }
+  div.Home > div.button_layer > button {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  div.Home > div.button_layer > button.secondaryButton {
+    display: none;
+  }
+  p.content {
+    width: 100%;
+    text-align: center;
+  }
+  div.Home > div.content-section {
+    box-sizing: border-box;
+    padding: 1em;
+  }
+  div.Home > div.events-section > div.event-card-container {
+    display: block;
+  }
+}
