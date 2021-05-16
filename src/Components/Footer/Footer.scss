@@ -58,3 +58,19 @@
 .Footer-LowerLayer > p > a:hover {
   color: var(--color-blue);
 }
+
+
+// responsive header
+
+@media screen and (max-width: 1200px) {
+  div.Footer > div.Footer-UpperLayer {
+    display: block;
+    text-align: center;
+  }
+  div.Footer-UpperLayer > div#footer-icon-layer > ul.icon {
+    text-align: center;
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

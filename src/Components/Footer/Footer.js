@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         {/* Social Media Handles Container */}
-        <div>
+        <div id="footer-icon-layer">
           <h3>
             Social Media Handles
           </h3>
