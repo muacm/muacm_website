@@ -39,4 +39,25 @@ div.TeamCard > div.social-icons > a > i {
   font-size: 24px;
   text-align: center;
 }
+
+@media (max-width: 450px) {
+  div.TeamCard {
+    width: 75%;
+  }
+}
+
+@media (max-width: 350px) {
+  div.TeamCard {
+    width: 80%;
+  }
+}
+
+@media (max-width: 300px) {
+  div.TeamCard {
+    width: 85%;
+  }
+  div.TeamCard > div.social-icons > a > i {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=TeamCard.css.map */

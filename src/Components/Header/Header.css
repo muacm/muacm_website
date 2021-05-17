@@ -15,6 +15,17 @@ div.Header {
   background-color: white;
 }
 
+div.header-drawer-btn {
+  display: none;
+}
+
+div.header-drawer-btn > div {
+  width: 30px;
+  height: 3px;
+  background-color: #292929;
+  margin: 6px 0;
+}
+
 div.Header > span.logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,5 +59,48 @@ li.header-option {
 
 li.header-option:hover {
   color: var(--color-blue);
+}
+
+@media (max-width: 525px) {
+  div.Header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  ul.header-option-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 100vh;
+    width: 75%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-right: 1px solid black;
+  }
+  ul.open-drawer {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  ul.close-drawer {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  li.header-option {
+    margin-bottom: 1.5em;
+  }
+  div.header-drawer-btn {
+    margin-right: 1.5em;
+    display: inline-block;
+  }
 }
 /*# sourceMappingURL=Header.css.map */

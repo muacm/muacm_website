@@ -1,10 +1,18 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Route, Link, HashRouter} from "react-router-dom";
 import './Header.css'
 import Logo from "../utils/assets/logo.png";
 
 const Header = () => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
+  let ulCss = ["header-option-list"]
+  if(isDrawerOpen){
+    ulCss.push("open-drawer")
+  } else {
+    ulCss.push("close-drawer")
+  }
+
   return (
     <div className="Header">
       <span className="logo-container">
@@ -13,7 +21,13 @@ const Header = () => {
         </a>
       </span>
 
-      <ul className="header-option-list">
+      <div onClick={() => setIsDrawerOpen(prev => !prev)} className="header-drawer-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <ul onClick={() => setIsDrawerOpen(prev => !prev)} className={ulCss.join(" ")}>
         <li className="header-option">
           <a href="/home#about-muacm">
             About
