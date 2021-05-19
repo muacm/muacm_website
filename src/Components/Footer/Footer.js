@@ -1,7 +1,5 @@
-
 import "./Footer.css";
-import Logo from "../utils/assets/logo.png"
-
+import Logo from "../utils/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -13,30 +11,18 @@ const Footer = () => {
 
         {/* Useful Links Container */}
         <div>
-          <h3>
-            Useful Links
-          </h3>
+          <h3>Useful Links</h3>
           <ul className="footer-list">
-            <li className="footer-list-item">
-              Medicaps University
-            </li>
-            <li className="footer-list-item">
-              STIC
-            </li>
-            <li className="footer-list-item">
-              ACM
-            </li>
-            <li className="footer-list-item">
-              Terms and Conditions
-            </li>
+            <li className="footer-list-item">Medicaps University</li>
+            <li className="footer-list-item">STIC</li>
+            <li className="footer-list-item">ACM</li>
+            <li className="footer-list-item">Terms and Conditions</li>
           </ul>
         </div>
 
         {/* Social Media Handles Container */}
         <div id="footer-icon-layer">
-          <h3>
-            Social Media Handles
-          </h3>
+          <h3>Social Media Handles</h3>
           <ul className="footer-list icon">
             <li className="footer-list-item">
               <i className="fab fa-linkedin"></i>
@@ -59,7 +45,7 @@ const Footer = () => {
         </p>
       </div>
     </div>
-  )
+  );
 };
 
 export default Footer;

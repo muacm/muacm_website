@@ -5,13 +5,13 @@
 @import url("Blogs/Blogs.css");
 
 // google fonts
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); // poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); // poppins
 
 // awesome font - icons
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');    // awesome icons library
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"); // awesome icons library
 
 body {
-  margin: 0;  
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -25,7 +25,9 @@ body:focus {
   max-width: 1400px;
 }
 
-.primaryButton, button.primaryButton, input.primaryButton {
+.primaryButton,
+button.primaryButton,
+input.primaryButton {
   color: white;
   background-color: var(--color-blue);
   padding: 1em;
@@ -35,11 +37,15 @@ body:focus {
   box-shadow: 2px 4px 18px var(--color-blue-shadow);
 }
 
-.primaryButton:hover, button.primaryButton:hover, input.primaryButton:hover {
+.primaryButton:hover,
+button.primaryButton:hover,
+input.primaryButton:hover {
   box-shadow: none;
 }
 
-.secondaryButton, button.secondaryButton, input.secondaryButton {
+.secondaryButton,
+button.secondaryButton,
+input.secondaryButton {
   color: white;
   background-color: var(--color-black);
   padding: 1em;
@@ -49,7 +55,9 @@ body:focus {
   box-shadow: 2px 4px 18px var(--color-black-shadow);
 }
 
-.secondaryButton:hover, button.secondaryButton:hover, input.secondaryButton:hover {
+.secondaryButton:hover,
+button.secondaryButton:hover,
+input.secondaryButton:hover {
   box-shadow: none;
 }
 

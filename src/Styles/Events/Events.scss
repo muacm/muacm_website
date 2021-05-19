@@ -1,11 +1,9 @@
-
 div.Events > div.event-card-container {
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
 @media screen and (max-width: 1200px) {
-  
   div.Events {
     text-align: center;
   }
