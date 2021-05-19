@@ -4,4 +4,15 @@ div.Events > div.event-card-container {
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
 }
+
+@media screen and (max-width: 1200px) {
+  div.Events {
+    text-align: center;
+  }
+  div.Events > div.event-card-container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 /*# sourceMappingURL=Events.css.map */

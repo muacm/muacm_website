@@ -3,3 +3,15 @@ div.Blogs > div.blog-card-container {
   display: grid;
   grid-template-columns: auto auto auto;
 }
+
+@media screen and (max-width: 1200px) {
+  div.Blogs {
+    text-align: center;
+  }
+  div.Blogs > div.blog-card-container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+}

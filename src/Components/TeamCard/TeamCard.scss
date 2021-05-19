@@ -37,21 +37,21 @@ div.TeamCard > div.social-icons > a > i {
   text-align: center;
 }
 
-@media(max-width:450px){
+@media screen and (max-width:450px){
   div.TeamCard{
-    width: 75%;
+    width: 90%;
   }
 }
 
-@media(max-width:350px){
+@media screen and (max-width:350px){
   div.TeamCard{
-    width: 80%;
+    width: 90%;
   }
 }
 
-@media(max-width:300px){
+@media screen and (max-width:300px){
   div.TeamCard{
-    width: 85%;
+    width: 90%;
   }
 
   div.TeamCard > div.social-icons > a > i{
