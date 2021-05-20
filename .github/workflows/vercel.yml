@@ -1,0 +1,5 @@
+- name: Vercel Action
+  uses: amondnet/vercel-action@v20.0.0
+
+- name: Vercel Deployment
+  uses: xmflsct/action-vercel-deployment@v0.5.3
