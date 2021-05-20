@@ -10,8 +10,8 @@ div.Home > div.button_layer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 3em;
 }
 
@@ -34,7 +34,14 @@ div.event-card-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+
+div.acm-video-wrapper {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1200px) {
@@ -57,11 +64,17 @@ div.event-card-container {
   }
   div.Home > div.content-section {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 1em;
   }
   div.Home > div.events-section > div.event-card-container {
     display: block;
+  }
+  div.acm-video-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }
 /*# sourceMappingURL=Home.css.map */
