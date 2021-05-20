@@ -2,7 +2,7 @@
 import "./BlogCard.css";
 
 const BlogCard = ({BlogCard_Details}) => {
-  console.log(BlogCard_Details);
+  
   return (
     <div className="BlogCard">
       <img src={BlogCard_Details["bg_image"]} 
