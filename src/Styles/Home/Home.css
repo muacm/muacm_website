@@ -1,3 +1,7 @@
+div.Home {
+  margin-top: 10em;
+}
+
 div.Home > h2.tagline {
   margin-top: 4em;
   font-weight: bolder;
@@ -15,7 +19,7 @@ div.Home > div.button_layer {
   margin-top: 3em;
 }
 
-div.Home > div.button_layer > button {
+div.Home > div.button_layer > a > button.primaryButton {
   margin-right: 2em;
 }
 
@@ -24,7 +28,7 @@ div.Home > div.content-section {
 }
 
 p.content {
-  width: 60%;
+  width: 80%;
   font-weight: inherit;
   font-family: "Poppins", sans-serif;
   text-align: justify;
@@ -37,18 +41,30 @@ div.event-card-container {
       grid-template-columns: auto auto auto;
 }
 
+div.Home > div#about-acm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media screen and (max-width: 1200px) {
   div.Home {
     text-align: center;
   }
   div.Home > div.button_layer {
-    text-align: center;
+    display: block;
   }
-  div.Home > div.button_layer > button {
+  div.Home > div.button_layer > a > button {
     margin-right: auto;
     margin-left: auto;
   }
-  div.Home > div.button_layer > button.secondaryButton {
+  div.Home > div.button_layer > a > button.primaryButton {
+    width: 90%;
+  }
+  div.Home > div.button_layer > a > button.secondaryButton {
     display: none;
   }
   p.content {
@@ -62,6 +78,12 @@ div.event-card-container {
   }
   div.Home > div.events-section > div.event-card-container {
     display: block;
+  }
+  div.Home > div#about-acm {
+    display: block;
+  }
+  div.Home > div#about-acm > div > iframe#youtube-video {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=Home.css.map */

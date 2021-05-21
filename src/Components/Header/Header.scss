@@ -4,10 +4,12 @@ div.Header {
   overflow: hidden;
   padding: 0.4em;
   display: flex;
-  box-sizing: border-box;
+  top: 0;
   box-shadow: 2px 4px 10px rgb(231, 231, 231);
   width: 100%;
   background-color: white;
+  position: fixed;
+  z-index: 100%;
 }
 
 div.header-drawer-btn{

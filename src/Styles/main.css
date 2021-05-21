@@ -8,6 +8,9 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  background-image: url("../utils/Page_BG.svg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 body:focus {

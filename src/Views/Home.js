@@ -14,12 +14,15 @@ const Home = () => {
       </h2>
     
       <div className="button_layer">
-        <button className="primaryButton" onclick="window.open('https://discord.gg/kWhRdyddve');">
-          Join Discord <i className="fab fa-discord"></i>
-        </button>
-        <button className="secondaryButton">
+        <a href="https://discord.gg/kWhRdyddve"
+            target="_blank">  
+          <button className="primaryButton">
+            Join Discord <i className="fab fa-discord"></i>
+          </button>
+        </a>
+        {/* <button className="secondaryButton">
           Check Past Events
-        </button>
+        </button> */}
       </div>
 
       {/* Starting the about MU content */}
@@ -34,16 +37,21 @@ const Home = () => {
 
       {/* Starting the about ACM content */}
       <div className="content-section" id="about-acm">
-        <h2>
-          About ACM
-        </h2>
-        <p className="content">
-          The ACM (Association for Computing Machinery) is a 74-year-old international scientific and industrial computer society. Through its many Special Interest Groups, the ACM fosters research and communication in a broad range of computing areas. The society has around 100,000 members including students and professionals, spread over 174 countries leading to interaction between diversified computing enthusiasts. ACM conducts various worldwide competitions and seminars, where we have learned and scholarly speakers to provide us with the opportunity to increase our knowledge and expand our horizons. ACM provides us with one of the most enriching digital libraries which consists of database full-text articles and bibliographic literature covering computing and information technology. This leads us to availability of critical content being easily discoverable and accessible. ACM strengthens the computing profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM leads us to the pathway following which in the near future, world’s biggest problems will be solved using computing.
-        </p>
+        <div>
+          <h2>
+            About ACM
+          </h2>
+          <p className="content">
+            The ACM (Association for Computing Machinery) is a 74-year-old international scientific and industrial computer society. Through its many Special Interest Groups, the ACM fosters research and communication in a broad range of computing areas. The society has around 100,000 members including students and professionals, spread over 174 countries leading to interaction between diversified computing enthusiasts. ACM conducts various worldwide competitions and seminars, where we have learned and scholarly speakers to provide us with the opportunity to increase our knowledge and expand our horizons. ACM provides us with one of the most enriching digital libraries which consists of database full-text articles and bibliographic literature covering computing and information technology. This leads us to availability of critical content being easily discoverable and accessible. ACM strengthens the computing profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM leads us to the pathway following which in the near future, world’s biggest problems will be solved using computing.
+          </p>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BHIbT0e7LTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="youtube-video"></iframe>
+        </div>
       </div>
 
       {/* Starting the about ACM-MU Chapter content */}
-      <div className="content-section" id="about-acm">
+      <div className="content-section" id="about-muacm">
         <h2>
           About ACM Medicaps Chapter
         </h2>
@@ -53,7 +61,7 @@ const Home = () => {
       </div>
 
       {/* Starting the about Why connect? content */}
-      <div className="content-section" id="about-muacm">
+      <div className="content-section" id="about-why-muacm">
         <h2>
           Why Connect with ACM
         </h2>

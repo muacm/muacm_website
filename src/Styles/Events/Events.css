@@ -1,3 +1,7 @@
+div.Events {
+  margin-top: 10em;
+}
+
 div.Events > div.event-card-container {
   display: -ms-grid;
   display: grid;
