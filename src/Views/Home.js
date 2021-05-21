@@ -71,9 +71,9 @@ const Home = () => {
             height="315"
             src="https://www.youtube-nocookie.com/embed/BHIbT0e7LTc"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             id="youtube-video"
           ></iframe>
         </div>
