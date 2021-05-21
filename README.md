@@ -1,4 +1,30 @@
-# MUACM
+# MUACM Community Website
+
+<div style="
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto">
+  <!-- Landing section -->
+  <img src="assets/muacmLOGO.png" style="width: 400px;" />
+    <br />
+    <span style="display: inline;">
+      <a href="medicaps.hosting.acm.org/">
+        Website
+      </a>
+      &bullet;
+      <a href="https://www.linkedin.com/company/acm-student-chapter-medicaps/">
+        LinkedIn
+      </a>
+      &bullet;
+      <a href="https://www.instagram.com/mu_acm/">
+        Instagram
+      </a>
+      &bullet;
+      <a href="https://medium.com/muacm">
+        Medium Blogs
+      </a>
+    </span>
+</div>
 
 ### Builds, Checks and Code Coverages Status
 
