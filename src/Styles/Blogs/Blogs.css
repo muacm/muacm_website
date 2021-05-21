@@ -1,8 +1,12 @@
+div.Blogs {
+  margin-top: 10em;
+}
+
 div.Blogs > div.blog-card-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
 }
 
 @media screen and (max-width: 1200px) {

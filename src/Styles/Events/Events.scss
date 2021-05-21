@@ -1,3 +1,6 @@
+div.Events {
+  margin-top: 10em;
+}
 
 div.Events > div.event-card-container {
   display: grid;
@@ -5,7 +8,6 @@ div.Events > div.event-card-container {
 }
 
 @media screen and (max-width: 1200px) {
-  
   div.Events {
     text-align: center;
   }

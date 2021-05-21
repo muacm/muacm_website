@@ -1,16 +1,17 @@
-
 div.Header {
   align-items: center;
   overflow: hidden;
   padding: 0.4em;
   display: flex;
-  box-sizing: border-box;
+  top: 0;
   box-shadow: 2px 4px 10px rgb(231, 231, 231);
   width: 100%;
   background-color: white;
+  position: fixed;
+  z-index: 100%;
 }
 
-div.header-drawer-btn{
+div.header-drawer-btn {
   display: none;
 }
 
@@ -21,7 +22,7 @@ div.header-drawer-btn > div {
   margin: 6px 0;
 }
 
-div.Header > span.logo-container  {
+div.Header > span.logo-container {
   display: flex;
   align-items: center;
   float: left;
@@ -50,12 +51,12 @@ li.header-option:hover {
   color: var(--color-blue);
 }
 
-@media(max-width:525px){
-  div.Header{
+@media (max-width: 525px) {
+  div.Header {
     justify-content: space-between;
   }
 
-  ul.header-option-list{
+  ul.header-option-list {
     position: fixed;
     top: 0;
     left: 0;
@@ -65,15 +66,15 @@ li.header-option:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(#ffffff,.95);
+    background-color: rgba(#ffffff, 0.95);
     border-right: 1px solid black;
   }
 
-  ul.open-drawer{
+  ul.open-drawer {
     transform: translateX(0);
   }
 
-  ul.close-drawer{
+  ul.close-drawer {
     transform: translateX(-100%);
   }
 
@@ -81,7 +82,7 @@ li.header-option:hover {
     margin-bottom: 1.5em;
   }
 
-  div.header-drawer-btn{
+  div.header-drawer-btn {
     margin-right: 1.5em;
     display: inline-block;
   }

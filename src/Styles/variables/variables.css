@@ -1,9 +1,9 @@
 :root {
-  --color-blue: rgb(58, 58, 255);
+  --color-blue: #3a3aff;
   --color-black: #292929;
   --color-white: #ffffff;
-  --color-gray: rgb(190, 190, 190);
-  --color-blue-shadow: rgba(58, 58, 255, 0.360);
+  --color-gray: #bebebe;
+  --color-blue-shadow: rgba(58, 58, 255, 0.36);
   --color-black-shadow: rgba(41, 41, 41, 0.342);
 }
 /*# sourceMappingURL=variables.css.map */

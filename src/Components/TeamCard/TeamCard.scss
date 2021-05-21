@@ -1,6 +1,5 @@
-
-
 div.TeamCard {
+  background-color: white;
   padding: 1em;
   width: 60%;
   text-align: center;
@@ -21,7 +20,8 @@ div.TeamCard:hover {
   outline: 2px solid rgba(128, 128, 128, 0.253);
 }
 
-div.TeamCard > h3, div.TeamCard > p {
+div.TeamCard > h3,
+div.TeamCard > p {
   font-family: inherit;
 }
 
@@ -37,24 +37,24 @@ div.TeamCard > div.social-icons > a > i {
   text-align: center;
 }
 
-@media screen and (max-width:450px){
-  div.TeamCard{
+@media screen and (max-width: 450px) {
+  div.TeamCard {
     width: 90%;
   }
 }
 
-@media screen and (max-width:350px){
-  div.TeamCard{
+@media screen and (max-width: 350px) {
+  div.TeamCard {
     width: 90%;
   }
 }
 
-@media screen and (max-width:300px){
-  div.TeamCard{
+@media screen and (max-width: 300px) {
+  div.TeamCard {
     width: 90%;
   }
 
-  div.TeamCard > div.social-icons > a > i{
+  div.TeamCard > div.social-icons > a > i {
     font-size: 20px;
   }
 }

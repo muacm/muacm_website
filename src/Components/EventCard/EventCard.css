@@ -1,20 +1,21 @@
 div.EventCard {
+  background-color: white;
   margin-right: auto;
   margin-left: auto;
   width: 80%;
   padding: 1em;
   -webkit-box-shadow: 2px 4px 18px var(--color-black-shadow);
-          box-shadow: 2px 4px 18px var(--color-black-shadow);
+  box-shadow: 2px 4px 18px var(--color-black-shadow);
   border-radius: 6px;
   margin-top: 1em;
   overflow: hidden;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 div.EventCard:hover {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: 2px solid rgba(128, 128, 128, 0.253);
 }
 /*# sourceMappingURL=EventCard.css.map */
