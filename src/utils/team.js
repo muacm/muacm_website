@@ -63,7 +63,7 @@ const Core_Member_Details = {
     {
       "Name": "Riya Ahuja",
       "Title": "Head of Management",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/riya-ahuja-81bb231b3/",
       "twitter": "",
       "github": "",
       "instagram": "https://www.instagram.com/riyaahuja84",
@@ -72,29 +72,29 @@ const Core_Member_Details = {
     {
       "Name": "Samriddhi Kaur",
       "Title": "Head of Graphics",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/samriddhi-kaur-b02b78204/",
       "twitter": "",
-      "github": "",
-      "instagram": "",
+      "github": "https://github.com/samriddhik562",
+      "instagram": "https://www.instagram.com/samriddhi.k.562/",
       "facebook": ""
     },
     {
       "Name": "Ritika Maheshwari",
       "Title": "Head of Marketing",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/ritika-maheshwari-7837871ab/",
       "twitter": "",
       "github": "",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/__ritika16/",
       "facebook": ""
     },
     {
       "Name": "Mihir Dutta",
       "Title": "Technical Head",
-      "linkedin": "",
-      "twitter": "",
-      "github": "",
-      "instagram": "",
-      "facebook": ""
+      "linkedin": "https://www.linkedin.com/in/mihirduttaa/",
+      "twitter": "https://twitter.com/exclusivemihir",
+      "github": "https://github.com/mihirduttaa",
+      "instagram": "https://www.instagram.com/mihirduttaa/",
+      "facebook": "https://www.facebook.com/profile.php?id=100005641725979"
     }
   ]
 };
@@ -104,109 +104,109 @@ const Executive_Member_Details = {
     {
       "Name": "Tanisha Jain",
       "Title": "Graphic Designer",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/tanisha-jain-60703120b/",
       "twitter": "",
       "github": "",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/tanishahahaaha/",
       "facebook": ""
     },
     {
       "Name": "Mayank Verma",
       "Title": "Management Team",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/mayank-v-946404131/",
       "twitter": "",
-      "github": "",
-      "instagram": "",
+      "github": "https://github.com/MVerma44",
+      "instagram": "https://www.instagram.com/vmayank_007/",
       "facebook": ""
     },
     {
       "Name": "Jaspreet Singh Saini",
       "Title": "Graphic Designer",
-      "linkedin": "",
-      "twitter": "",
-      "github": "",
-      "instagram": "",
+      "linkedin": "https://www.linkedin.com/in/jaspreet-singh-saini-a916111b2/",
+      "twitter": "https://twitter.com/s_jaspreet099",
+      "github": "https://github.com/Jaspreet099",
+      "instagram": "https://www.instagram.com/official_jaspreet_saini/",
       "facebook": ""
     },
     {
       "Name": "Samarth Sharma",
       "Title": "Marketing and Management",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/samarth-sharma2406/",
       "twitter": "",
-      "github": "",
-      "instagram": "",
+      "github": "https://github.com/24samarth",
+      "instagram": "https://www.instagram.com/_samarth_sharma._/",
       "facebook": ""
     },
     {
       "Name": "Aditi Mandlik",
       "Title": "Content and Graphics Team",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/aditi-mandlik-b95386209/",
       "twitter": "",
       "github": "",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/aditimandlik/",
       "facebook": ""
     },
     {
       "Name": "Preeti Mehta Jain",
       "Title": "Marketing and Management",
-      "linkedin": "",
-      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/prateeti-mehta-33186420a/",
+      "twitter": "https://twitter.com/PrateetiJ",
       "github": "",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/prateetimjain/",
       "facebook": ""
     },
     {
       "Name": "Rajesh Nathani",
       "Title": "Web Development Team",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/rajesh-nathani-5a186a145/",
       "twitter": "",
-      "github": "",
-      "instagram": "",
+      "github": "https://github.com/RajeshNathani",
+      "instagram": "https://www.instagram.com/rajesh.nathani1/",
       "facebook": ""
     },
     {
       "Name": "Aditi Dandawate",
       "Title": "Content and Graphics",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/aditi-dandawate-84704120b",
       "twitter": "",
       "github": "",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/aditi_dandawate/",
       "facebook": ""
     },
     {
       "Name": "Suchismita Nanda",
       "Title": "Marketing and Management",
-      "linkedin": "",
-      "twitter": "",
-      "github": "",
-      "instagram": "",
+      "linkedin": "https://www.linkedin.com/in/suchismita-nanda-221a4b201",
+      "twitter": "https://twitter.com/Suchi2407?s=08",
+      "github": "https://github.com/suchismita2407",
+      "instagram": "https://www.instagram.com/suchi_9624/",
       "facebook": ""
     },
     {
       "Name": "Ishika Shahaney",
       "Title": "Marketing and Management",
-      "linkedin": "",
-      "twitter": "",
-      "github": "",
-      "instagram": "",
-      "facebook": ""
+      "linkedin": "https://www.linkedin.com/in/ishika-shahaney-b9b945201",
+      "twitter": "https://mobile.twitter.com/IShahaney",
+      "github": "https://github.com/Ishika1903",
+      "instagram": "https://www.instagram.com/__ishika1903/",
+      "facebook": "https://m.facebook.com/ishika.shahaney.5?ref=bookmarks"
     },
     {
       "Name": "Raj Soni",
       "Title": "Marketing and Management",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/raj-soni-5306141b6/",
       "twitter": "",
       "github": "",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/raj_soni0717/",
       "facebook": ""
     },
     {
       "Name": "Anushka Jain",
       "Title": "Marketing and Management",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/in/anushka-jain-88a548209/",
       "twitter": "",
       "github": "",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/anushkajain_28/",
       "facebook": ""
     }
   ]
