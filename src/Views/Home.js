@@ -150,7 +150,7 @@ const Home = () => {
         onRequestClose={() => setRegistrationFormPopupState(false)}
         style={{
           overlay: {
-            backgroundColor: 'rgba(0, 0, 0, 0 )',
+            backgroundColor: 'rgba(0, 0, 0, 0)',
             marginRight: 'auto',
             marginLeft: 'auto',
             marginTop: 'auto',
@@ -161,22 +161,14 @@ const Home = () => {
             boxSizing: 'border-box'
           },
           content: {
+            background: 'none',
             border: 'none',
-            boxShadow: '12px 24px 32px rgba(0, 0, 0, 0.225)'
+            outline: 'none'
           }
         }}
+        className="animate__animated animate__fadeInUp"
         >
-          <div className="modal-header">
-            <i className="fas fa-times" style={{
-              float: 'right'
-            }}
-            onClick={() => setRegistrationFormPopupState(false)}
-            ></i>
-          </div>
-          <h2 style={{
-            textAlign: 'center'
-          }}>Register for the upcoming Web Development BootCamp</h2>
-          <PopUpFormContent />
+            <PopUpFormContent />
         </ReactModal>
 
     </div>
