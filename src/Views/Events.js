@@ -7,7 +7,7 @@ import React, { useState } from "react";
 const Events_List = () => {
 
   const [datas] = useState(Events.Events);
-
+  
   return (
     <div className="Events">
       <h2 style={{ 
@@ -20,6 +20,7 @@ const Events_List = () => {
           <EventCard event_details={data} />
         ))}
       </div>
+
     </div>
   )
 };
