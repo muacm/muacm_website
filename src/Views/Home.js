@@ -3,8 +3,16 @@ import Events from "../utils/events";
 import EventCard from "../Components/EventCard/EventCard";
 import React, { useState } from "react";
 
+import ReactModal from 'react-modal';
+import PopUpFormContent from "../Components/PopUpFormContent/PopUpFormContent";
+
 const Home = () => {
+
   const [datas] = useState(Events.Events);
+  
+  // state and stateHandler for the registration form POPUP-MODAL
+  const [registrationFormPopupState, setRegistrationFormPopupState] = useState(true);
+
   return (
     <div className="Home">
       <h2 className="tagline">
@@ -136,6 +144,41 @@ const Home = () => {
           ))}
         </div>
       </div>
+
+      {/* Creating a ReactModal for registration form popup */}
+      <ReactModal isOpen={registrationFormPopupState}
+        onRequestClose={() => setRegistrationFormPopupState(false)}
+        style={{
+          overlay: {
+            backgroundColor: 'rgba(0, 0, 0, 0 )',
+            marginRight: 'auto',
+            marginLeft: 'auto',
+            marginTop: 'auto',
+            marginBottom: 'auto',
+            width: '880px',
+            height: '800px',
+            overflow: 'hidden',
+            boxSizing: 'border-box'
+          },
+          content: {
+            border: 'none',
+            boxShadow: '12px 24px 32px rgba(0, 0, 0, 0.225)'
+          }
+        }}
+        >
+          <div className="modal-header">
+            <i className="fas fa-times" style={{
+              float: 'right'
+            }}
+            onClick={() => setRegistrationFormPopupState(false)}
+            ></i>
+          </div>
+          <h2 style={{
+            textAlign: 'center'
+          }}>Register for the upcoming Web Development BootCamp</h2>
+          <PopUpFormContent />
+        </ReactModal>
+
     </div>
   );
 };

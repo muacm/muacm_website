@@ -1,6 +1,7 @@
 
 import "./TeamCard.css";
 import imageContainer from './../../utils/teamImages'
+import React from 'react';
 
 const TeamCard = ({TeamCard_Details}) => {
 

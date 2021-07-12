@@ -1,7 +1,7 @@
 div.Header {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow: hidden;
   padding: 0.4em;
   display: -webkit-box;
@@ -9,7 +9,7 @@ div.Header {
   display: flex;
   top: 0;
   -webkit-box-shadow: 2px 4px 10px #e7e7e7;
-  box-shadow: 2px 4px 10px #e7e7e7;
+          box-shadow: 2px 4px 10px #e7e7e7;
   width: 100%;
   background-color: white;
   position: fixed;
@@ -32,8 +32,8 @@ div.Header > span.logo-container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   float: left;
 }
 
@@ -65,8 +65,8 @@ li.header-option:hover {
 @media (max-width: 525px) {
   div.Header {
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   ul.header-option-list {
     position: fixed;
@@ -77,24 +77,24 @@ li.header-option:hover {
     width: 75%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: rgba(255, 255, 255, 0.95);
     border-right: 1px solid black;
   }
   ul.open-drawer {
     -webkit-transform: translateX(0);
-    transform: translateX(0);
+            transform: translateX(0);
   }
   ul.close-drawer {
     -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   li.header-option {
     margin-bottom: 1.5em;

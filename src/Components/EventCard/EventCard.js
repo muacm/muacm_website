@@ -1,5 +1,6 @@
 
 import './EventCard.css'
+import React from 'react';
 
 const EventCard = ({event_details}) => {
   return (
