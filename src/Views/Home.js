@@ -16,23 +16,30 @@ const Home = () => {
   return (
     <div className="Home">
       <h2 className="tagline">
-        We believe in building a great technical community <br />
-        of Students
+        We believe in building a great technical community of Students
       </h2>
 
-      <div className="button_layer">
+      <span className="button_layer">
         <a href="https://discord.gg/kWhRdyddve" target="_blank">
-          <button className="primaryButton">
-            Join Discord <i className="fab fa-discord"></i>
+          <button className="primaryButton" style={{
+            marginRight: 'auto',
+            marginLeft: 'auto'
+          }}>
+            <span>
+              Join Discord 
+              <i className="fab fa-discord"></i> 
+            </span>
           </button>
         </a>
         {/* <button className="secondaryButton">
           Check Past Events
         </button> */}
-      </div>
+      </span>
 
       {/* Starting the about MU content */}
-      <div className="content-section" id="about-mu">
+      <div className="content-section" id="about-mu" style={{
+        textAlign: 'center'
+      }}>
         <h2>About Medicaps University</h2>
         <p className="content">
           Medi-Caps has been a brand name in the arena of technical education.
@@ -50,8 +57,20 @@ const Home = () => {
 
       {/* Starting the about ACM content */}
       <div className="content-section" id="about-acm">
+        <h2>About ACM</h2>
         <div>
-          <h2>About ACM</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/BHIbT0e7LTc"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            id="youtube-video"
+          ></iframe>
+        </div>
+        <div>
           <p className="content">
             The ACM (Association for Computing Machinery) is a 74-year-old
             international scientific and industrial computer society. Through
@@ -72,18 +91,6 @@ const Home = () => {
             ACM leads us to the pathway following which in the near future,
             world’s biggest problems will be solved using computing.
           </p>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/BHIbT0e7LTc"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            id="youtube-video"
-          ></iframe>
         </div>
       </div>
 
@@ -136,8 +143,12 @@ const Home = () => {
       </div>
 
       {/* events section */}
-      <div className="events-section">
-        <h2>Events</h2>
+      <div className="events-section" style={{
+        marginTop: '3.6em'
+      }}>
+        <h2 style={{
+          textAlign: 'center'
+        }}>Events</h2>
         <div className="event-card-container">
           {datas.map((data, index) => (
             <EventCard event_details={data} />

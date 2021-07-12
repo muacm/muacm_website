@@ -10,7 +10,9 @@ const Events_List = () => {
 
   return (
     <div className="Events">
-      <h2>
+      <h2 style={{ 
+        textAlign: 'center'
+      }}>
         Events
       </h2>
       <div className="event-card-container">
