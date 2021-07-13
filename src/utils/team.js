@@ -3,8 +3,8 @@ const HOD_Details = {
     {
       Name: "Dheeraj Rane",
       Title: "Faculty Coordinator",
-      type: 'faculty',
-      email: 'dheeraj.rane@medicaps.ac.in'
+      type: "faculty",
+      email: "dheeraj.rane@medicaps.ac.in",
     },
   ],
 };

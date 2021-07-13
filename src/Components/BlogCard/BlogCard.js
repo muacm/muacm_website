@@ -1,5 +1,5 @@
 import "./BlogCard.css";
-import React from 'react';
+import React from "react";
 
 const BlogCard = ({ BlogCard_Details }) => {
   return (

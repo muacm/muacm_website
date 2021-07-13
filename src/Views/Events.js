@@ -1,18 +1,18 @@
-
 import "../Styles/main.css";
 import EventCard from "../Components/EventCard/EventCard";
 import Events from "../utils/events";
 import React, { useState } from "react";
 
 const Events_List = () => {
-
   const [datas] = useState(Events.Events);
-  
+
   return (
     <div className="Events">
-      <h2 style={{ 
-        textAlign: 'center'
-      }}>
+      <h2
+        style={{
+          textAlign: "center",
+        }}
+      >
         Events
       </h2>
       <div className="event-card-container">
@@ -20,9 +20,8 @@ const Events_List = () => {
           <EventCard event_details={data} />
         ))}
       </div>
-
     </div>
-  )
+  );
 };
 
 export default Events_List;

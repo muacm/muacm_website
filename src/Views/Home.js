@@ -3,15 +3,15 @@ import Events from "../utils/events";
 import EventCard from "../Components/EventCard/EventCard";
 import React, { useState } from "react";
 
-import ReactModal from 'react-modal';
+import ReactModal from "react-modal";
 import PopUpFormContent from "../Components/PopUpFormContent/PopUpFormContent";
 
 const Home = () => {
-
   const [datas] = useState(Events.Events);
-  
+
   // state and stateHandler for the registration form POPUP-MODAL
-  const [registrationFormPopupState, setRegistrationFormPopupState] = useState(true);
+  const [registrationFormPopupState, setRegistrationFormPopupState] =
+    useState(true);
 
   return (
     <div className="Home">
@@ -21,13 +21,16 @@ const Home = () => {
 
       <span className="button_layer">
         <a href="https://discord.gg/kWhRdyddve" target="_blank">
-          <button className="primaryButton" style={{
-            marginRight: 'auto',
-            marginLeft: 'auto'
-          }}>
+          <button
+            className="primaryButton"
+            style={{
+              marginRight: "auto",
+              marginLeft: "auto",
+            }}
+          >
             <span>
-              Join Discord 
-              <i className="fab fa-discord"></i> 
+              Join Discord
+              <i className="fab fa-discord"></i>
             </span>
           </button>
         </a>
@@ -37,9 +40,13 @@ const Home = () => {
       </span>
 
       {/* Starting the about MU content */}
-      <div className="content-section" id="about-mu" style={{
-        textAlign: 'center'
-      }}>
+      <div
+        className="content-section"
+        id="about-mu"
+        style={{
+          textAlign: "center",
+        }}
+      >
         <h2>About Medicaps University</h2>
         <p className="content">
           Medi-Caps has been a brand name in the arena of technical education.
@@ -143,12 +150,19 @@ const Home = () => {
       </div>
 
       {/* events section */}
-      <div className="events-section" style={{
-        marginTop: '3.6em'
-      }}>
-        <h2 style={{
-          textAlign: 'center'
-        }}>Events</h2>
+      <div
+        className="events-section"
+        style={{
+          marginTop: "3.6em",
+        }}
+      >
+        <h2
+          style={{
+            textAlign: "center",
+          }}
+        >
+          Events
+        </h2>
         <div className="event-card-container">
           {datas.map((data, index) => (
             <EventCard event_details={data} />
@@ -157,31 +171,31 @@ const Home = () => {
       </div>
 
       {/* Creating a ReactModal for registration form popup */}
-      <ReactModal isOpen={registrationFormPopupState}
+      <ReactModal
+        isOpen={registrationFormPopupState}
         onRequestClose={() => setRegistrationFormPopupState(false)}
         style={{
           overlay: {
-            backgroundColor: 'rgba(0, 0, 0, 0)',
-            marginRight: 'auto',
-            marginLeft: 'auto',
-            marginTop: 'auto',
-            marginBottom: 'auto',
-            width: '880px',
-            height: '800px',
-            overflow: 'hidden',
-            boxSizing: 'border-box'
+            backgroundColor: "rgba(0, 0, 0, 0)",
+            marginRight: "auto",
+            marginLeft: "auto",
+            marginTop: "auto",
+            marginBottom: "auto",
+            width: "880px",
+            height: "800px",
+            overflow: "hidden",
+            boxSizing: "border-box",
           },
           content: {
-            background: 'none',
-            border: 'none',
-            outline: 'none'
-          }
+            background: "none",
+            border: "none",
+            outline: "none",
+          },
         }}
         className="animate__animated animate__fadeInUp"
-        >
-            <PopUpFormContent />
-        </ReactModal>
-
+      >
+        <PopUpFormContent />
+      </ReactModal>
     </div>
   );
 };

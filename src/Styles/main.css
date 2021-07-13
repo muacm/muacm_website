@@ -36,7 +36,7 @@ input.primaryButton {
   border: none;
   border-radius: 4px;
   -webkit-box-shadow: 2px 4px 18px var(--color-blue-shadow);
-          box-shadow: 2px 4px 18px var(--color-blue-shadow);
+  box-shadow: 2px 4px 18px var(--color-blue-shadow);
 }
 
 .primaryButton > span,
@@ -46,8 +46,8 @@ input.primaryButton > span {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .primaryButton > span > i,
@@ -61,7 +61,7 @@ input.primaryButton > span > i {
 button.primaryButton:hover,
 input.primaryButton:hover {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .secondaryButton,
@@ -74,14 +74,14 @@ input.secondaryButton {
   border: none;
   border-radius: 4px;
   -webkit-box-shadow: 2px 4px 18px var(--color-black-shadow);
-          box-shadow: 2px 4px 18px var(--color-black-shadow);
+  box-shadow: 2px 4px 18px var(--color-black-shadow);
 }
 
 .secondaryButton:hover,
 button.secondaryButton:hover,
 input.secondaryButton:hover {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 a {
