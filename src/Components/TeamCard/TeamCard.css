@@ -6,11 +6,11 @@ div.TeamCard {
   margin-right: auto;
   margin-left: auto;
   -webkit-box-shadow: 2px 4px 18px var(--color-black-shadow);
-  box-shadow: 2px 4px 18px var(--color-black-shadow);
+          box-shadow: 2px 4px 18px var(--color-black-shadow);
   margin-top: 2em;
   font-family: "Poppins", sans-serif;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 div.TeamCard > img {
@@ -19,7 +19,7 @@ div.TeamCard > img {
 
 div.TeamCard:hover {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   outline: 2px solid rgba(128, 128, 128, 0.253);
 }
 
@@ -31,8 +31,8 @@ div.TeamCard > p {
 div.TeamCard > div.social-icons {
   display: inline;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 div.TeamCard > div.social-icons > a > i {

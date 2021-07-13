@@ -3,8 +3,9 @@
 @import url("Team/Team.css");
 @import url("Events/Events.css");
 @import url("Blogs/Blogs.css");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -26,21 +27,41 @@ body:focus {
 .primaryButton,
 button.primaryButton,
 input.primaryButton {
+  display: block;
   color: white;
   background-color: var(--color-blue);
-  padding: 1em;
+  padding: 1.6em;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   border: none;
   border-radius: 4px;
   -webkit-box-shadow: 2px 4px 18px var(--color-blue-shadow);
-  box-shadow: 2px 4px 18px var(--color-blue-shadow);
+          box-shadow: 2px 4px 18px var(--color-blue-shadow);
+}
+
+.primaryButton > span,
+button.primaryButton > span,
+input.primaryButton > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.primaryButton > span > i,
+button.primaryButton > span > i,
+input.primaryButton > span > i {
+  margin-left: 10px;
+  font-size: 20px;
 }
 
 .primaryButton:hover,
 button.primaryButton:hover,
 input.primaryButton:hover {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
 .secondaryButton,
@@ -53,14 +74,14 @@ input.secondaryButton {
   border: none;
   border-radius: 4px;
   -webkit-box-shadow: 2px 4px 18px var(--color-black-shadow);
-  box-shadow: 2px 4px 18px var(--color-black-shadow);
+          box-shadow: 2px 4px 18px var(--color-black-shadow);
 }
 
 .secondaryButton:hover,
 button.secondaryButton:hover,
 input.secondaryButton:hover {
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
 a {

@@ -24,6 +24,24 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <!-- linking script to implement SMTP mailing connection -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <script>
+      function SubForm() {
+          $.ajax({
+            url: 'https://api.apispreadsheets.com/data/15286/',
+            type: 'post',
+            data: $("#myForm").serializeArray(),
+            success: function () {
+              alert("Form Data Submitted :)")
+            },
+            error: function () {
+              alert("There was an error :(")
+            }
+          });
+        }
+    </script>
     <title>React App</title>
   </head>
   <body>

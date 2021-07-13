@@ -1,6 +1,7 @@
 
 import "./Footer.css";
 import Logo from "../utils/assets/logo.png"
+import React from 'react';
 
 
 const Footer = () => {
@@ -17,14 +18,20 @@ const Footer = () => {
             Useful Links
           </h3>
           <ul className="footer-list">
-            <li className="footer-list-item">
-              Medicaps University
+            <li className="footer-list-item" target="_blank">
+              <a href="http://www.medicaps.ac.in/" rel="noreferrer">
+                Medicaps University
+              </a>
             </li>
             <li className="footer-list-item">
-              STIC
+              <a href="https://sticmedicaps.org.in/" rel="noreferrer" target="_blank">
+                STIC
+              </a>
             </li>
             <li className="footer-list-item">
-              ACM
+              <a href="https://www.acm.org/" rel="noreferrer" target="_blank">
+                ACM
+              </a>
             </li>
             <li className="footer-list-item">
               Terms and Conditions
@@ -39,16 +46,24 @@ const Footer = () => {
           </h3>
           <ul className="footer-list icon">
             <li className="footer-list-item">
-              <i className="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/company/acm-student-chapter-medicaps/" rel="noreferrer" target="_blank">
+                <i className="fab fa-linkedin"></i>
+              </a>
             </li>
             <li className="footer-list-item">
-              <i className="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/muacm" rel="noreferrer" target="_blank">
+                <i className="fab fa-instagram"></i>
+              </a>
             </li>
             <li className="footer-list-item">
-              <i className="fab fa-discord"></i>
+              <a href="https://discord.gg/jVxbpUabyR" rel="noreferrer" target="_blank">
+                <i className="fab fa-discord"></i>
+              </a>
             </li>
             <li className="footer-list-item">
-              <i className="fab fa-facebook"></i>
+              <a href="https://twitter.com/ACMMedicaps" rel="noreferrer" target="_blank">
+                <i className="fab fa-twitter"></i>
+              </a>
             </li>
           </ul>
         </div>

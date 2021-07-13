@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.214becbe.chunk.css",
-    "main.js": "/static/js/main.7de4afef.chunk.js",
-    "main.js.map": "/static/js/main.7de4afef.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b89a5237.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b89a5237.js.map",
-    "static/js/2.7cf633a5.chunk.js": "/static/js/2.7cf633a5.chunk.js",
-    "static/js/2.7cf633a5.chunk.js.map": "/static/js/2.7cf633a5.chunk.js.map",
-    "static/js/3.bf974f95.chunk.js": "/static/js/3.bf974f95.chunk.js",
-    "static/js/3.bf974f95.chunk.js.map": "/static/js/3.bf974f95.chunk.js.map",
+    "main.css": "/static/css/main.79152a67.chunk.css",
+    "main.js": "/static/js/main.f72eba0c.chunk.js",
+    "main.js.map": "/static/js/main.f72eba0c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c44e616e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c44e616e.js.map",
+    "static/js/2.eaba7b61.chunk.js": "/static/js/2.eaba7b61.chunk.js",
+    "static/js/2.eaba7b61.chunk.js.map": "/static/js/2.eaba7b61.chunk.js.map",
+    "static/js/3.f4342831.chunk.js": "/static/js/3.f4342831.chunk.js",
+    "static/js/3.f4342831.chunk.js.map": "/static/js/3.f4342831.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.214becbe.chunk.css.map": "/static/css/main.214becbe.chunk.css.map",
-    "static/js/2.7cf633a5.chunk.js.LICENSE.txt": "/static/js/2.7cf633a5.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/static/media/Page_BG.766ad1db.svg",
+    "static/css/main.79152a67.chunk.css.map": "/static/css/main.79152a67.chunk.css.map",
+    "static/js/2.eaba7b61.chunk.js.LICENSE.txt": "/static/js/2.eaba7b61.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/static/media/Page_BG.d8432c6d.svg",
     "static/media/aditi_dandawate.1d08220e.png": "/static/media/aditi_dandawate.1d08220e.png",
     "static/media/aditi_mandlik.db57b5e0.png": "/static/media/aditi_mandlik.db57b5e0.png",
     "static/media/anushka_jain.2023953c.png": "/static/media/anushka_jain.2023953c.png",
@@ -38,9 +38,9 @@
     "static/media/yash.dced67c2.png": "/static/media/yash.dced67c2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b89a5237.js",
-    "static/js/2.7cf633a5.chunk.js",
-    "static/css/main.214becbe.chunk.css",
-    "static/js/main.7de4afef.chunk.js"
+    "static/js/runtime-main.c44e616e.js",
+    "static/js/2.eaba7b61.chunk.js",
+    "static/css/main.79152a67.chunk.css",
+    "static/js/main.f72eba0c.chunk.js"
   ]
 }

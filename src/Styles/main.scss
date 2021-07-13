@@ -5,10 +5,11 @@
 @import url("Blogs/Blogs.css");
 
 // google fonts
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); // poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); // poppins
 
 // awesome font - icons
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"); // awesome icons library
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');  // animate css library
 
 body {
   margin: 0;
@@ -31,13 +32,26 @@ body:focus {
 .primaryButton,
 button.primaryButton,
 input.primaryButton {
+  display: block;
   color: white;
   background-color: var(--color-blue);
-  padding: 1em;
+  padding: 1.6em;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   border: none;
   border-radius: 4px;
   box-shadow: 2px 4px 18px var(--color-blue-shadow);
+
+  > span {
+    display: flex;
+    align-items: center;
+  }
+
+  > span > i {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
 }
 
 .primaryButton:hover,
@@ -58,6 +72,7 @@ input.secondaryButton {
   box-shadow: 2px 4px 18px var(--color-black-shadow);
 }
 
+// sec button code
 .secondaryButton:hover,
 button.secondaryButton:hover,
 input.secondaryButton:hover {
