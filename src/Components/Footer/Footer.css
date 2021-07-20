@@ -15,6 +15,7 @@
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 1px solid gray;
+  padding: 1.2em;
 }
 
 .Footer-UpperLayer > div > img {
@@ -68,6 +69,11 @@
   div.Footer > div.Footer-UpperLayer {
     display: block;
     text-align: center;
+  }
+  div.Footer-UpperLayer > div#footer-icon-layer > button.primaryButton {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
   }
   div.Footer-UpperLayer > div#footer-icon-layer > ul.icon {
     text-align: center;

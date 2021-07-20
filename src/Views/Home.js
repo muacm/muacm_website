@@ -3,15 +3,9 @@ import Events from "../utils/events";
 import EventCard from "../Components/EventCard/EventCard";
 import React, { useState } from "react";
 
-import ReactModal from 'react-modal';
-import PopUpFormContent from "../Components/PopUpFormContent/PopUpFormContent";
-
 const Home = () => {
 
   const [datas] = useState(Events.Events);
-  
-  // state and stateHandler for the registration form POPUP-MODAL
-  const [registrationFormPopupState, setRegistrationFormPopupState] = useState(true);
 
   return (
     <div className="Home">
@@ -155,33 +149,6 @@ const Home = () => {
           ))}
         </div>
       </div>
-
-      {/* Creating a ReactModal for registration form popup */}
-      <ReactModal isOpen={registrationFormPopupState}
-        onRequestClose={() => setRegistrationFormPopupState(false)}
-        style={{
-          overlay: {
-            backgroundColor: 'rgba(0, 0, 0, 0)',
-            marginRight: 'auto',
-            marginLeft: 'auto',
-            marginTop: 'auto',
-            marginBottom: 'auto',
-            width: '880px',
-            height: '800px',
-            overflow: 'hidden',
-            boxSizing: 'border-box'
-          },
-          content: {
-            background: 'none',
-            border: 'none',
-            outline: 'none'
-          }
-        }}
-        className="animate__animated animate__fadeInUp"
-        >
-            <PopUpFormContent />
-        </ReactModal>
-
     </div>
   );
 };

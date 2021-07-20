@@ -1,10 +1,13 @@
 
 import "./Footer.css";
 import Logo from "../utils/assets/logo.png"
-import React from 'react';
-
+import React, { useState } from 'react';
+import ReactModal from 'react-modal';
+import PopUpFormContent from "../../Components/PopUpFormContent/PopUpFormContent";
 
 const Footer = () => {
+  // state and stateHandler for the registration form POPUP-MODAL
+  const [registrationFormPopupState, setRegistrationFormPopupState] = useState(false);
   return (
     <div className="Footer">
       <div className="Footer-UpperLayer">
@@ -66,6 +69,11 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+          <button className="primaryButton" 
+            onClick={() => setRegistrationFormPopupState(true)}
+          >
+            Subscribe for mails
+          </button>
         </div>
       </div>
       <div className="Footer-LowerLayer">
@@ -73,6 +81,31 @@ const Footer = () => {
           Copyright © 2021 <a href="/">MUACM</a> All rights Reserved
         </p>
       </div>
+      {/* Creating a ReactModal for registration form popup */}
+      <ReactModal isOpen={registrationFormPopupState}
+        onRequestClose={() => setRegistrationFormPopupState(false)}
+        style={{
+          overlay: {
+            backgroundColor: 'rgba(0, 0, 0, 0)',
+            marginRight: 'auto',
+            marginLeft: 'auto',
+            marginTop: 'auto',
+            marginBottom: 'auto',
+            width: '880px',
+            height: '800px',
+            overflow: 'hidden',
+            boxSizing: 'border-box'
+          },
+          content: {
+            background: 'none',
+            border: 'none',
+            outline: 'none'
+          }
+        }}
+        className="animate__animated animate__fadeInUp"
+      >
+        <PopUpFormContent />
+      </ReactModal>
     </div>
   )
 };
